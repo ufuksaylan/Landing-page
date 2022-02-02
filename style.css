@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Open+Sans:ital,wght@1,300&family=Roboto&display=swap');
 html,body {
     margin:0;
     padding:0;
@@ -14,7 +14,7 @@ body {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 8px 480px;
+    padding: 8px 400px;
     align-items: center;
 }
 .header-logo {
@@ -34,7 +34,7 @@ body {
     background-color: #1F2937;
     justify-content: center;
     align-content: center;
-    gap: 50px;
+    gap: 70px;
     padding: 40px 0px;
 }
 .one-text {
@@ -65,7 +65,8 @@ button {
     text-align: center;  
     display: flex;
     flex-direction: column; 
-    gap: 16px;
+    gap: 60px;
+    padding: 70px 0px;
 }
 .two-header {
     font-weight: bolder;
@@ -92,4 +93,45 @@ button {
 }
 .image p {
     width: 200px;
+}
+.three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #E5E7EB;
+    padding: 70px 330px;
+}
+.italic {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    color: #1F2937;
+    flex-wrap: wrap;
+}   
+.citation {
+    margin-left: auto;
+    font-size: 26px;
+}
+.four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    background-color: #0d6efd;
+    padding: 35px;
+    width: 1000px;
+    margin: auto;
+    border-radius: 12px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #E5E7EB;
+}
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 20px 0px
+}
+h4 {
+    color: #F9FAF8;
 }
